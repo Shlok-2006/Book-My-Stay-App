@@ -68,8 +68,8 @@ public class BookStayApp{
         BookStayApp service = new BookStayApp();
 
         service.addBooking("Abhi", "Single");
-        service.addBooking("Subha", "Single");
-        service.addBooking("Vanmathi", "Suite");
+        service.addBooking("Shlok", "Single");
+        service.addBooking("Vani", "Suite");
 
         service.processBookings();
     }

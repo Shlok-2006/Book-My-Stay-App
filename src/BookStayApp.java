@@ -50,4 +50,5 @@ public class BookStayApp {
         BookingReportService reportService = new BookingReportService();
         reportService.generateReport(history.getReservations());
     }
+
 }
